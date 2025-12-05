@@ -30,7 +30,7 @@ void selectionSort(int[] arr)
 
         for(int i = 1; i <= lastSortedIndex; i++)
         {
-            if (arr[i] < arr[smallestIndex]) // look for the smallest value
+            if (arr[i] < arr[smallestIndex]) // smaller value
             {
                 smallestIndex = i;
             }
